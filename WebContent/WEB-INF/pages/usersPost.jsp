@@ -15,7 +15,7 @@ function getBlogs()
 	$.ajax(
 		{
 			type: "GET",
-			url: "/BlogWebsite/v1/userBlogs?userID=".concat(userID),
+			url: "/v1/userBlogs?userID=".concat(userID),
 			dataType: "json",
 						
 			success: function(data)
@@ -53,7 +53,7 @@ $(document).ready(getBlogs);
 			<td><label>${blog.blogTitle}</label></td>
 			<td><label>${blog.blogBody}</label></td>
 			<td>
-			<form:form method= "POST" action="/BlogWebsite/blog/fullBlogPost">
+			<form:form method= "POST" action="/blog/fullBlogPost">
 				<input type="hidden" name="blogTitle" value="${blog.blogTitle}">
 				<input type="hidden" name="blogBody" value="${blog.blogBody}">
 				<input type= "submit" value= "View Post">

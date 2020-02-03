@@ -17,12 +17,12 @@ User Name: ${user.credentials.userName}<br>
 
 <table>
 	<tr>
-		<form:form method= "GET" action="/BlogWebsite/loginRegistration/editUserForm">
+		<form:form method= "GET" action="/loginRegistration/editUserForm">
 			<input type= "submit" value= "Edit">
 		</form:form>
 	</tr>
 	<tr>
-		<form:form method= "GET" action="/BlogWebsite/loginRegistration/deleteUser">
+		<form:form method= "GET" action="/loginRegistration/deleteUser">
 			<input type= "submit" value= "Delete User">
 		</form:form>
 	</tr>
