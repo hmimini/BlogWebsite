@@ -33,9 +33,9 @@
 	<!-- MySQL Datasource -->
 	<bean id="dataSource" destroy-method="close" class="org.apache.commons.dbcp2.BasicDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/341BlogWebsite" />
-        <property name="username" value="root" />
-        <property name="password" value="root" />
+        <property name="url" value="jdbc:mysql://deploymentdatabase.cxivk5qn5xlz.us-east-2.rds.amazonaws.com:3306/341BlogWebsite" />
+        <property name="username" value="admin" />
+        <property name="password" value="mesi1234" />
     </bean>
 	
 	<!-- Home Page Set -->
