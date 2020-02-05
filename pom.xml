@@ -8,6 +8,7 @@
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<finalName>BlogWebsite</finalName>
 		<resources>
 			<resource>
 				<directory>src</directory>
